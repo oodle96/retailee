@@ -2,6 +2,10 @@
 
 Android-first record keeping and Gemini advice for Indonesian micro-businesses.
 
+**Live web prototype:** https://retailee-web-197857328513.asia-southeast2.run.app
+
+The web interface is hosted on Google Cloud Run and connects to Firebase sign-in, owner-scoped storage, and the Gemini backend. Sign in with your own Google account to create your business profile. See [web deployment instructions](deploy/web/README.md).
+
 ## Hackathon source and local setup
 
 Built by Pranexia One for the Google Cloud AI Builder Cup. This repository contains the Flutter app, the Cloud Run backend, Firebase access rules, and configuration templates. The app supports English and Indonesian.
